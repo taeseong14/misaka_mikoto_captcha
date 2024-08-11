@@ -51,8 +51,17 @@ done
 <br>
 
 #### **서버**
+ - [X] html 떤져주기
+ - 캡챠 관련
+    - [X] 처음 페이지 html 만들기
+    - [ ] form html 만들기
+    - [ ] form 아이디 만들기
+    - [ ] form에 들어갈 사진(대량) 구하기 **(중요)**
+    - [ ] 받은 요청 준비하기
 
 #### **클라**   
- - [X] 첫 화면 <details><summary><code>자세히 보기</code></summary><img src="readme_img_3.png" width="80%"></details>
+ - [X] 첫 화면 <details><summary><code>사진</code></summary><img src="readme_img_3.png" width="80%"></details>
 
- - [ ] 캡챠 클릭 시 
+ - [ ] 캡챠 클릭 시 form 뜨게 하기
+
+ - [ ] 캡챠 완료 요청 보내고 확인하기
