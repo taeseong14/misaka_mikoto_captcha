@@ -47,5 +47,11 @@ done
 > 서버
 
 > 클라
- - [X] <details><summary><code>첫 화면</code></summary><img src="readme_img_3.png" width="80%"></details>
+<details><summary>
+ - [X] <code>첫 화면</code>
+</summary>
+<img src="readme_img_3.png" width="80%">   
+ - [X] 간단한 사이트
+ - [X] 캡챠 iframe
+</details>
  - [ ] 캡챠 클릭 시 
