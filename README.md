@@ -44,9 +44,9 @@ done
 
 
 
-> 서버
+ - **서버**
 
-> 클라
+ - **클라**   
     - [X] 첫 화면
 <details>
 <summary><code>자세히 보기</code></summary>
