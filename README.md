@@ -5,11 +5,11 @@
 
 ## 개발 동기
 
- - [1](https://m.humoruniv.com/board/read.html?&table=thema2&number=1387050)
-![readme_img_2](readme_img_2.png)
+ - [1](https://m.humoruniv.com/board/read.html?&table=thema2&number=1387050)   
+<img src="readme_img_1.png" width="400">
 
- - [2](https://youtu.be/pFjhHPa_Apw?t=119)
-![readme_img_1](readme_img_1.png)
+ - [2](https://youtu.be/pFjhHPa_Apw?t=119)   
+<img src="readme_img_2.png" width="400">
 
  - 3
     - 심심함.
