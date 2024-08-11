@@ -1,3 +1,7 @@
+.hidden {
+    display: none !important;
+}
+
 body {
     margin: 0;
     width: calc(100vw - 3px);
@@ -10,6 +14,7 @@ body {
     border-radius: 4px;
     box-sizing: border-box;
     box-shadow: 0 0 4px 1px rgba(0, 0, 0, .05);
+    cursor: default;
 }
 
 
@@ -19,15 +24,15 @@ body {
     align-items: center;
 }
 
-#checkbox input {
+#checkbox #chbox {
     width: 24px;
     height: 24px;
     margin-right: 14px;
-    outline: none;
-    border: 1px solid #c1c1c1;
+    border: 2px solid #c1c1c1;
+    border-radius: 2px;
 }
-#checkbox:hover input {
-    border: 1px solid #b2b2b2;
+#checkbox:hover #chbox {
+    border: 2px solid #b2b2b2;
 }
 
 
@@ -41,8 +46,20 @@ body {
 }
 #icon img {
     width: 32px;
+        animation: rotating .8s cubic-bezier(0.5, 0.09, 0.27, 0.77) infinite;
 }
 #icon #icon-text {
     font-size: 8px;
     color: #a6a6a6;
+}
+
+
+
+@keyframes rotating {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
 }

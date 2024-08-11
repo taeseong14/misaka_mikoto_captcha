@@ -8,12 +8,14 @@
 </head>
 <body>
     <div id="checkbox">
-        <input type="checkbox" id="chbox" name="chbox"> 
-        <label for="chbox">로봇이 아닙니다.</label>
+         <div id="chbox"></div>
+         <span id="label">로봇이 아닙니다.</span>
     </div>
     <div id="icon">
         <div id="icon-img">
-            <img src="http://localhost:3000/captcha/icon.svg" alt="captcha icon">
+            <img src="http://localhost:3000/captcha/img/checkbox.svg" alt="captcha icon" id="icon-img-checkbox">
+            <img src="http://localhost:3000/captcha/img/load.svg" alt="captcha icon" id="icon-img-load">
+            <img src="http://localhost:3000/captcha/img/checkbox.svg" alt="captcha icon" id="icon-img-checked" class="hidden">
         </div>
         <div id="icon-text">
             <span>| Misaka Mikoto |</span>

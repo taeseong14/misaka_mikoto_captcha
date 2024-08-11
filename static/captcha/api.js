@@ -9,5 +9,5 @@ window.onload = () => {
 
     captchaEl.innerHTML = `
     <iframe src="http://localhost:3000/captcha" width="300px" height="74px" frameborder="0"></iframe>
-    `
+    `;
 }
