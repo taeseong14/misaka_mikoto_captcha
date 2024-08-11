@@ -47,7 +47,9 @@ done
 > 서버
 
 > 클라
-<details><summary><input type="checkbox"> <code>첫 화면</code></summary>
+    - [X] 첫 화면
+<details>
+<summary><code>자세히 보기</code></summary>
 
 <img src="readme_img_3.png" width="80%">   
  - [X] 간단한 사이트
