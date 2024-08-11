@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    width: calc(100vw - 3px);
+    height: calc(100vh - 2px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, .05);
+}
+
+
+#checkbox {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+#checkbox input {
+    width: 24px;
+    height: 24px;
+    margin-right: 14px;
+    outline: none;
+    border: 1px solid #c1c1c1;
+}
+#checkbox:hover input {
+    border: 1px solid #b2b2b2;
+}
+
+
+#icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#icon #icon-img {
+    text-align: center;
+}
+#icon img {
+    width: 32px;
+}
+#icon #icon-text {
+    font-size: 8px;
+    color: #a6a6a6;
+}
