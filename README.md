@@ -28,9 +28,13 @@
     - 
 
 
+---
+
+
+
 ## TODO
 
-> 접속했을 때 과정
+#### 접속했을 때 과정
 
  - [X] 0. (server.js)  send index.html
  - [X] 1. (index.html) script:src - ./captcha/api.js
@@ -42,18 +46,13 @@
  - [ ] 7. (index.html) ok -> hide form, display checkmark.   
 done
 
+<br>
+<br>
+<br>
 
+#### **서버**
 
- - **서버**
-
- - **클라**   
-    - [X] 첫 화면
-<details>
-<summary><code>자세히 보기</code></summary>
-
-<img src="readme_img_3.png" width="80%">   
- - [X] 간단한 사이트
- - [X] 캡챠 iframe
-</details>
+#### **클라**   
+ - [X] 첫 화면 <details><summary><code>자세히 보기</code></summary><img src="readme_img_3.png" width="80%"></details>
 
  - [ ] 캡챠 클릭 시 
